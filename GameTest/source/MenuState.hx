@@ -26,8 +26,6 @@ class MenuState extends FlxState
 		super.create();
 
 		FlxG.mouse.visible = false;
-		FlxG.drawFramerate = 100;
-		FlxG.updateFramerate = 300;
 
 		sky = new FlxBackdrop("assets/images/layer1.png", 1, 1, true, true);
 		add(sky);
